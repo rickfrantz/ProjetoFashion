@@ -1,0 +1,238 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+    
+}
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+    
+}
+.hero{
+    height: 50px;
+    background: #162028; 
+    position: relative;
+}
+.logotipo{
+    margin: 5px 0 0 135px;
+}
+.hero-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.hero-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.hero-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0px;
+    padding: 13px;
+}
+.hero-nav a{
+    color:#425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+.hero-nav a:hover{
+    color: white;
+}
+.center{
+    padding: 50px 100px;
+    text-align: center;
+}
+.center h1{
+    font-size: 36px;
+    color: #252525;
+}
+.center p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+.galeria {
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+.galeria-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+.galeria-tittle{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.baner{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.baner h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+.baner p{
+    line-height: 1.5;
+    width: 70%;
+}
+.contato{
+    margin: 50px 0;
+    
+}
+.contato address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.maps iframe{
+    width: 100%;
+}
+.rodape{
+    background: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
+/*.hero-cab{
+    background-image: linear-gradient(to right,rgb(26, 26, 66),rgb(6, 6, 109));
+    margin-top: -22px; 
+    display: inline-block;
+    width: 100%;
+}
+.logotipo{
+    margin: 5px 0 0 35px;
+}
+.hero-cab ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+    
+}
+.hero-cab li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 2%;
+}
+.hero-cab a{
+    color: rgba(133, 108, 245,0.7);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.hero-cab a:hover{
+    color: rgb(177, 163, 236);
+}
+.hero-cab img{
+    box-sizing: border-box;
+    float: left;
+    margin: -1% 15% 1%  ;    
+}
+.hero-topo img{
+    width: 100%;
+    
+}
+.center {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 5% 10% 5% 10%;  
+    line-height: 25px;
+}
+.galeria{
+    background-size: cover;
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding:2%;  
+
+}
+.galeria img{
+    width: 100%;
+    display: block;
+}
+.galeria h4{
+    color: rgb(116, 115, 115);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 15px;
+}
+.galeria p{
+    color: rgb(153, 147, 147);
+    text-align: center;
+    margin-top: -10px;
+}
+.baner{
+    color: white;
+    box-sizing: border-box;
+    padding: 8%;
+    clear: left;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+
+}
+.baner h2{
+    margin-bottom: -20px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.baner p{
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 15px;
+    padding:10% 35% 0% 0%;
+    line-height: 20px;
+}
+.contato address{
+    text-align: center;
+    color: rgb(6, 60, 141);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px;
+}
+.maps iframe{
+    width: 100%;
+    height: 300px;
+
+}
+footer{
+    background-color: rgb(26, 26, 66);
+    color: rgba(133, 108, 245,0.7);
+    text-align: center;
+    padding: 2%;
+    font-size: 15px;
+    margin-top: 3%;
+}
+
